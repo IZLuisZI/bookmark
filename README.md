@@ -1,8 +1,27 @@
-# React + Vite
+# Project Name: Room Homepage - React Version
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This project is a React version of the Room Homepage website. It provides a modern and responsive design for showcasing different rooms and their details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Responsive layout for different screen sizes
+- Interactive room cards with detailed information
+- Smooth scrolling navigation
+- Mobile-friendly design
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/your-username/room-homepage-react.git`
+2. Navigate to the project directory: `cd room-homepage-react`
+3. Install dependencies: `npm install`
+
+## Usage
+
+1. Start the development server: `npm start`
+2. Open your browser and visit `http://localhost:3000`
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
