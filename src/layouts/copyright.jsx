@@ -1,4 +1,6 @@
+import getCurrentDate from "../utils/currentDate";
 export default function Copyright() {
+  const { year } = getCurrentDate();
   return (
     <div className="bg-white text-black p-4">
       <p className="text-center text-gray-500 text-sm">
@@ -19,8 +21,8 @@ export default function Copyright() {
           rel="noreferrer"
         >
           Luis Soriano
-        </a>
-        .
+        </a>{" "}
+        {year}.
       </p>
     </div>
   );
