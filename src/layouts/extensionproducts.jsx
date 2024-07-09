@@ -34,7 +34,13 @@ export default function ExtensionProducts() {
         {BROWSERS.map((browser, index) => {
           return (
             <article
-              style={{ marginTop: `${index * 50}px` }} // Inline style for precise margin-top
+              key={browser.name}
+              data-hero="hero"
+              style={{
+                marginTop: `${index * 50}px`,
+                animationDelay: `${index * 100}ms`,
+                opacity: 0,
+              }} // Inline style for precise margin-top
               className="flex items-center gap-4 h-max py-10 flex-col shadow-slate-300 shadow-lg rounded-md"
             >
               <img className="size-32" src={browser.logo} alt={browser.name} />

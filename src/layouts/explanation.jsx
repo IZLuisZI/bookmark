@@ -7,7 +7,12 @@ export default function MainContent() {
     <section className="grid grid-cols-1 md:grid-cols-2 my-40 gap-4 pb-20 overflow-hidden ">
       <article className="relative flex justify-center ">
         <figure>
-          <img src={Hero1} alt="hero icon" className="aspect-auto " />
+          <img
+            src={Hero1}
+            data-hero="hero"
+            alt="hero icon"
+            className="aspect-auto "
+          />
         </figure>
         <div className="absolute h-1/2 w-full bg-blue-600 top-1/2 right-1/2 rounded-r-full translate-y-14 -z-10"></div>
       </article>

@@ -2,7 +2,9 @@ import Demonstration from "../assets/images/illustration-hero.svg";
 import Button from "../components/button.jsx";
 import Text from "../components/text.jsx";
 import SectionDescriptor from "../components/sectiondescriptor.jsx";
+import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
 export default function MainContent() {
+  useIntersectionObserver('[data-hero="hero"]', "animate__fadeIn");
   const BUTTONS = [
     {
       name: "Get it on Chrome",
@@ -52,8 +54,9 @@ export default function MainContent() {
         <figure>
           <img
             src={Demonstration}
+            data-hero="hero"
             alt="hero icon"
-            className="aspect-auto h-full w-full"
+            className="aspect-auto h-full w-full animate-fadeIn animate"
           />
         </figure>
         <div className="absolute h-1/2 w-3/4 bg-blue-600 top-1/2 left-1/2 rounded-l-full -z-10"></div>
